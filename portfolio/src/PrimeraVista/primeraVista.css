@@ -1,0 +1,7 @@
+.PrimeraVista{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Fondo-primeraVista.jpg");
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
