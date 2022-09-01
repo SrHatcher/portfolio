@@ -1,13 +1,11 @@
 import React from 'react';
-import { PrimeraVista } from '../PrimeraVista';
-import { MyHeader } from '../PrimeraVista/MyHeader';
-import { Presentacion } from '../PrimeraVista/Presentacion';
+import { MyHeader } from '../MyHeader';
+import { Presentacion } from '../Presentacion';
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
-      <PrimeraVista>
         <MyHeader>
           <nav className='nav-container'>
             <ul>
@@ -18,10 +16,8 @@ function App() {
             </ul>
           </nav>
         </MyHeader>
-        <Presentacion>
-          
-        </Presentacion>
-      </PrimeraVista>
+        <Presentacion />
+        
     </React.Fragment>
   );
 }

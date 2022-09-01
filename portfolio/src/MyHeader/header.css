@@ -36,6 +36,8 @@ header{
     font-family: 'inter', sans-serif;
     font-weight: 600;
     letter-spacing: 0.5rem;
+
+    cursor: pointer;
 }
 
 .nav-item--selected{

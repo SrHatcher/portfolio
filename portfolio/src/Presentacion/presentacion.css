@@ -1,0 +1,263 @@
+.presentacion-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 100vh;
+    
+    background-image: url("../../public/img/Fondo-primeraVista.jpg");
+    background-size: 100vw;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.presentacion_content-container{
+    display: flex;
+    margin-top: 60px;
+    width: 80vw;
+    height: 80%;
+}
+
+.presentacion-foto{
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentacion-nombre{
+    position: relative;
+    flex-grow: 1;
+}
+
+.presentacion-foto_polygon-background{
+    position: absolute;
+    top: -10px;
+    left: 135px;
+
+    width: 380px;
+    height: 530px;
+    transform: rotate(60deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+
+    background-color: #FF00B8;
+}
+
+.presentacion-foto_fotografia{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+
+    width: 320px;
+    height: 320px;
+    clip-path: circle(50% at 50% 50%);
+
+    background-image: url("../../public/img/myphoto.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.presentacion-foto_kanji{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+
+    width: 360px;
+    height: 111px;
+    background-image: url("../../public/img/mensaje-kanji.png");
+    background-size: 360px 111px;
+    background-repeat: no-repeat;
+}
+
+.presentacion-foto_err-shadow{
+    position: absolute;
+    top: 380px;
+    left: 300px;
+
+    width: 165px;
+    height: 108px;
+    border-radius: 8px;
+
+    background-color: #0C0025;
+}
+
+.presentacion-foto_err-cuadro{
+    position: absolute;
+    top: 400px;
+    left: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 165px;
+    height: 108px;
+    border-radius: 8px;
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    
+    background-color: #39005B;
+    border: solid 15px #9400DA;
+    color: white;
+}
+
+.err-cuadro_red-button{
+    position: inherit;
+    top: -13px;
+    right: -5px;
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    background-color: rgb(255, 0, 98);
+}
+
+.err-cuadro_green-button{
+    position: inherit;
+    top: -13px;
+    right: 10px;
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    background-color: rgb(119, 241, 63);
+}
+
+.err-cuadro_grey-button{
+    position: inherit;
+    top: -13px;
+    right: 25px;
+
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+
+    background-color: rgb(185, 185, 185);
+}
+
+.presentacion-foto_aceptar-button{
+    position: absolute;
+    top: 500px;
+    left: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+
+    font-size: 1.3rem;
+    font-family: 'Bakbak One', cursive;
+
+    background-color: #FF00B8;
+    color: white;
+}
+
+.presentacion-nombre_introduccion-shadow{
+    position: absolute;
+    top: 150px;
+    left: 40px;
+
+    width: 250px;
+    height: 60px;
+    clip-path: polygon(12% 20%, 100% 0, 100% 87%, 0 80%);
+
+    background-color: #860388e1;
+}
+
+.presentacion-nombre_introduccion{
+    position: absolute;
+    top: 160px;
+    left: 10px;
+
+    width: 270px;
+    height: 60px;
+    clip-path: polygon(12% 20%, 100% 0, 100% 87%, 0 80%);
+
+    background-color: #ff00b7bb;
+}
+
+.presentacion-nombre_introduccion p{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.2rem;
+
+    color: white;
+}
+
+.presentacion-nombre_nombre{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 8.2rem;
+
+    color: white;
+}
+
+.presentacion-nombre_apellido{
+    position: absolute;
+    top: 190px;
+    left: 22px;
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 8.2rem;
+
+    color: white;
+}
+
+.presentacion-nombre_cargo-shadow{
+    position: absolute;
+    top: 310px;
+    left: 125px;
+
+    width: 400px;
+    height: 170px;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 18% 78%);
+
+    background-color: #860388e1;
+}
+
+.presentacion-nombre_cargo{
+    position: absolute;
+    top: 290px;
+    left: 110px;
+    display: flex;
+    justify-content: right;
+
+    width: 400px;
+    height: 170px;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 18% 78%);
+
+    background-color: #ff00b7bb;
+}
+
+.presentacion-nombre_cargo p{
+    display: flex;
+
+    margin-top: 20px;
+    margin-right: 15px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 45px;
+    text-align: right;
+
+    color: white;
+}
+
+.presentacion-nombre_cargo p h2{
+    font-family: 'Bakbak One', cursive;
+    letter-spacing: 3px;
+}
