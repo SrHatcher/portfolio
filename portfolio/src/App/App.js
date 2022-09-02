@@ -1,6 +1,7 @@
 import React from 'react';
 import { MyHeader } from '../MyHeader';
 import { Presentacion } from '../Presentacion';
+import { Proyectos } from '../Proyectos';
 import './App.css';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           </nav>
         </MyHeader>
         <Presentacion />
-        
+        <Proyectos />
     </React.Fragment>
   );
 }

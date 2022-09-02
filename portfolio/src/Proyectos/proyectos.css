@@ -1,0 +1,207 @@
+.proyectos-container{
+    position: relative;
+
+    width: 100%;
+    height: 120vh;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+    margin-top: -130px;
+
+    background-color: #850268;    
+}
+
+.proyectos-container_shadow{
+    position: absolute;
+    top: 40px;
+
+    width: 100%;
+    height: calc(100% - 40px);
+    clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+
+    background-color: #D906AA;
+}
+
+.proyectos-content_container{
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+
+
+    width: 100%;
+    height: calc(100% - 80px);
+
+    clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
+    background-color: #FF00C7;
+}
+
+.proyectos-content_background{
+    position: absolute;
+    top: 110px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+
+    background-image: url("../../public/img/cuadricula.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.proyectos-content_background-circle1{
+    position: absolute;
+    top: 30px;
+    right: calc(10% - 100px);
+    width: 800px;
+    height: 800px;
+
+    background-color: #DB00FF;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.proyectos-content_background-circle2{
+    position: absolute;
+    top: 110px;
+    right: calc(12% - 100px);
+    width: 700px;
+    height: 700px;
+
+    background-color: #FF007A;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.proyectos-content_background-circle3{
+    position: absolute;
+    top: 150px;
+    right: calc(12% - 100px);
+    width: 200px;
+    height: 200px;
+
+    background-color: #0c0025b9;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.proyectos-content_background-circle4{
+    position: absolute;
+    top: 150px;
+    left: calc(12% - 100px);
+    width: 100px;
+    height: 100px;
+
+    background-color: #550056b0;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.proyectos-content_background-circle5{
+    position: absolute;
+    top: 440px;
+    left: calc(12% - 100px);
+    width: 300px;
+    height: 300px;
+
+    background-color: #9500dab4;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.proyectos-content_jugo-universo{
+    position: absolute;
+    top: -50px;
+    left: calc(15% - 70px);
+    width: 200px;
+    height: 250px;
+
+    background-image: url("../../public/img/jugo-universo.svg");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+.proyectos-content_title1{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    font-size: 6rem;
+    font-family: 'Bakbak One', cursive;
+    letter-spacing: 5px;
+    line-height: 60px;
+
+    text-shadow: 2px 5px 8px black;
+    color: white;
+}
+
+.proyectos-content_title2{
+    position: absolute;
+    top: 80px;
+    right: 300px;
+    font-size: 6rem;
+    font-family: 'Bakbak One', cursive;
+    letter-spacing: 5px;
+    line-height: 60px;
+
+    text-shadow: 2px 5px 8px black;
+    color: white;
+}
+
+.proyectos-hechos-container{
+    position: absolute;
+    bottom: 0px;
+    max-width: 760px;
+    width: 100%;
+    min-width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.proyectos-hechos-division1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.proyectos-hechos-division2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.proyecto-view{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 90%;
+    border-radius: 10px;
+
+    border: solid 3px black;
+    background-color: rgba(255, 255, 255, 0.507);
+}
+
+.proyecto-view_division1{
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 5px;
+
+    padding: 0 5px;
+}
+
+.proyecto-view_division2{
+    flex-grow: 4;
+    flex-basis: 0;
+    background-color: red;
+}
+
+.proyecto-view_division3{
+    flex-grow: 1.5;
+    flex-basis: 0;
+}
+
+.proyecto-view_buttons{
+    width: 18px;
+    height: 20px;
+    border-radius: 2px;
+
+    background-color: #0C0025;
+}

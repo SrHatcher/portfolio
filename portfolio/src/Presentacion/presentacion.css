@@ -1,22 +1,23 @@
 .presentacion-container{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
-    width: 100vw;
-    height: 100vh;
+    padding-top: 100px;
+    width: 100%;
+    height: 120vh;
     
     background-image: url("../../public/img/Fondo-primeraVista.jpg");
-    background-size: 100vw;
-    background-position: left;
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
 }
 
 .presentacion_content-container{
     display: flex;
-    margin-top: 60px;
     width: 80vw;
-    height: 80%;
+    height: 80vh;
 }
 
 .presentacion-foto{
