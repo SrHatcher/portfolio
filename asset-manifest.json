@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.153be32b.css",
-    "main.js": "/portfolio/static/js/main.26e0274e.js",
+    "main.css": "/portfolio/static/css/main.e3588dd0.css",
+    "main.js": "/portfolio/static/js/main.830db174.js",
     "static/media/Fondo-primeraVista.jpg": "/portfolio/static/media/Fondo-primeraVista.e91d2942557ed5e8e5cc.jpg",
-    "static/media/jugo-universo.svg": "/portfolio/static/media/jugo-universo.c6f653f540230c7bd63e.svg",
     "static/media/myphoto.jpg": "/portfolio/static/media/myphoto.15ebabdff9c3b6b13477.jpg",
     "static/media/mensaje-kanji.png": "/portfolio/static/media/mensaje-kanji.d16cbd5b0fb6ee261796.png",
-    "static/media/cuadricula.svg": "/portfolio/static/media/cuadricula.697cab0debcc208946b7.svg",
+    "static/media/cuadricula.svg": "/portfolio/static/media/cuadricula.8bfbd1d1d67689ad0525.svg",
     "static/media/letras-jp-proyectos.svg": "/portfolio/static/media/letras-jp-proyectos.530a68507f8a1ebf1e98.svg",
     "static/media/letras-jp-proyectos2.svg": "/portfolio/static/media/letras-jp-proyectos2.53bf45a8d5f4806c3934.svg",
     "index.html": "/portfolio/index.html",
-    "main.153be32b.css.map": "/portfolio/static/css/main.153be32b.css.map",
-    "main.26e0274e.js.map": "/portfolio/static/js/main.26e0274e.js.map"
+    "static/media/creaneo.svg": "/portfolio/static/media/creaneo.7d2e5dfea21d21fb712f.svg",
+    "static/media/proyectos-derecha.svg": "/portfolio/static/media/proyectos-derecha.1d370e68cc20a75a58e7.svg",
+    "static/media/proyectos-title.svg": "/portfolio/static/media/proyectos-title.a3d35055ea4b167e6c23.svg",
+    "static/media/proyectos-izquierda.svg": "/portfolio/static/media/proyectos-izquierda.f1db1487cb5a7e937ae1.svg",
+    "static/media/tears.svg": "/portfolio/static/media/tears.d5b2dab8d349da462222.svg",
+    "static/media/half-heart.svg": "/portfolio/static/media/half-heart.841d14eea3273f01da47.svg",
+    "main.e3588dd0.css.map": "/portfolio/static/css/main.e3588dd0.css.map",
+    "main.830db174.js.map": "/portfolio/static/js/main.830db174.js.map"
   },
   "entrypoints": [
-    "static/css/main.153be32b.css",
-    "static/js/main.26e0274e.js"
+    "static/css/main.e3588dd0.css",
+    "static/js/main.830db174.js"
   ]
 }
