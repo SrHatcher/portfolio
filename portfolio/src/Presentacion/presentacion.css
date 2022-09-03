@@ -160,7 +160,7 @@
 
 .presentacion-nombre_introduccion-shadow{
     position: absolute;
-    top: 160px;
+    top: 180px;
     right: 280px;
 
     width: 250px;
@@ -172,7 +172,7 @@
 
 .presentacion-nombre_introduccion{
     position: absolute;
-    top: 168px;
+    top: 188px;
     right: 295px;
 
     width: 270px;
@@ -195,7 +195,7 @@
 
 .presentacion-nombre_nombre{
     position: absolute;
-    top: 120px;
+    top: 140px;
     right: 10px;
 
     font-family: 'Bakbak One', cursive;
@@ -206,7 +206,7 @@
 
 .presentacion-nombre_apellido{
     position: absolute;
-    top: 200px;
+    top: 220px;
     right: 10px;
 
     font-family: 'Bakbak One', cursive;
@@ -217,7 +217,7 @@
 
 .presentacion-nombre_cargo-shadow{
     position: absolute;
-    top: 340px;
+    top: 360px;
     right: 15px;
 
     width: 450px;
@@ -229,7 +229,7 @@
 
 .presentacion-nombre_cargo{
     position: absolute;
-    top: 320px;
+    top: 340px;
     right: 10px;
     display: flex;
     justify-content: right;
