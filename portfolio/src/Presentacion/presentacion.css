@@ -1,45 +1,42 @@
 .presentacion-container{
     display: flex;
     align-items: flex-start;
-    justify-content: center;
 
-    padding-top: 100px;
     width: 100%;
     height: 120vh;
     
     background-image: url("../../public/img/Fondo-primeraVista.jpg");
     background-size: cover;
-    background-position: bottom;
+    background-position: left;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
 }
 
-.presentacion_content-container{
-    display: flex;
-    width: 80vw;
-    height: 80vh;
-}
-
-.presentacion-foto{
-    position: relative;
-    flex-grow: 1;
+.presentacion-view-container{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: 100%;
+    height: 100vh;
 }
 
-.presentacion-nombre{
+.presentacion_content{
     position: relative;
-    flex-grow: 1;
+    display: flex;
+
+    max-width: 1200px;
+    width: 90%;
+    height: 660px;
 }
 
 .presentacion-foto_polygon-background{
     position: absolute;
-    top: -10px;
-    left: 135px;
+    top: -50px;
+    left: 170px;
 
-    width: 380px;
-    height: 530px;
+    width: 450px;
+    height: 630px;
     transform: rotate(60deg);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 
@@ -48,11 +45,11 @@
 
 .presentacion-foto_fotografia{
     position: absolute;
-    top: 25%;
-    left: 15%;
+    top: 140px;
+    left: 115px;
 
-    width: 320px;
-    height: 320px;
+    width: 390px;
+    height: 390px;
     clip-path: circle(50% at 50% 50%);
 
     background-image: url("../../public/img/myphoto.jpg");
@@ -64,19 +61,19 @@
 .presentacion-foto_kanji{
     position: absolute;
     top: 80px;
-    left: 10px;
+    left: 30px;
 
-    width: 360px;
-    height: 111px;
+    width: 380px;
+    height: 130px;
     background-image: url("../../public/img/mensaje-kanji.png");
-    background-size: 360px 111px;
+    background-size: 380px 130px;
     background-repeat: no-repeat;
 }
 
 .presentacion-foto_err-shadow{
     position: absolute;
-    top: 380px;
-    left: 300px;
+    top: 420px;
+    left: 340px;
 
     width: 165px;
     height: 108px;
@@ -87,8 +84,8 @@
 
 .presentacion-foto_err-cuadro{
     position: absolute;
-    top: 400px;
-    left: 280px;
+    top: 440px;
+    left: 320px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,8 +141,8 @@
 
 .presentacion-foto_aceptar-button{
     position: absolute;
-    top: 500px;
-    left: 325px;
+    top: 540px;
+    left: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,8 +160,8 @@
 
 .presentacion-nombre_introduccion-shadow{
     position: absolute;
-    top: 150px;
-    left: 40px;
+    top: 160px;
+    right: 280px;
 
     width: 250px;
     height: 60px;
@@ -175,8 +172,8 @@
 
 .presentacion-nombre_introduccion{
     position: absolute;
-    top: 160px;
-    left: 10px;
+    top: 168px;
+    right: 295px;
 
     width: 270px;
     height: 60px;
@@ -199,31 +196,31 @@
 .presentacion-nombre_nombre{
     position: absolute;
     top: 120px;
-    left: 300px;
+    right: 10px;
 
     font-family: 'Bakbak One', cursive;
-    font-size: 8.2rem;
+    font-size: 9.6rem;
 
     color: white;
 }
 
 .presentacion-nombre_apellido{
     position: absolute;
-    top: 190px;
-    left: 22px;
+    top: 200px;
+    right: 10px;
 
     font-family: 'Bakbak One', cursive;
-    font-size: 8.2rem;
+    font-size: 9.6rem;
 
     color: white;
 }
 
 .presentacion-nombre_cargo-shadow{
     position: absolute;
-    top: 310px;
-    left: 125px;
+    top: 340px;
+    right: 15px;
 
-    width: 400px;
+    width: 450px;
     height: 170px;
     clip-path: polygon(0 0, 100% 0, 100% 87%, 18% 78%);
 
@@ -232,12 +229,12 @@
 
 .presentacion-nombre_cargo{
     position: absolute;
-    top: 290px;
-    left: 110px;
+    top: 320px;
+    right: 10px;
     display: flex;
     justify-content: right;
 
-    width: 400px;
+    width: 450px;
     height: 170px;
     clip-path: polygon(0 0, 100% 0, 100% 87%, 18% 78%);
 

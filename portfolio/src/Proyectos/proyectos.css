@@ -4,7 +4,7 @@
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
     margin-top: -150px;
     /*I had to add this transparent border because of the rule "margin-collapse"*/
-    border: solid 1px transparent;
+    overflow: hidden;
     background-color: #850268;    
 }
 
@@ -14,7 +14,7 @@
     margin-top: 30px;
     clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 100%);
 
-    border: solid 1px transparent; 
+    overflow: hidden;
     background-color: #D906AA;
 }
 
@@ -50,7 +50,7 @@
 
 .proyectos-content_background-circle1{
     position: absolute;
-    bottom: 0px;
+    bottom: 5px;
     right: calc(10% - 100px);
 
     width: 800px;
