@@ -33,6 +33,10 @@ function Presentacion(){
                     </React.Fragment>
                 </div>
             </div>
+            <div className="presentacion-footer">
+                <div className="presentacion-footer_div1"></div>
+                <div className="presentacion-footer_div2"></div>
+            </div>
         </section>
     )
 }
