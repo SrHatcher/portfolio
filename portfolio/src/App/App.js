@@ -20,9 +20,7 @@ function App() {
         </MyHeader>
         <Presentacion />
         <Proyectos />
-        {/*
         <About />
-  */}
     </React.Fragment>
   );
 }
