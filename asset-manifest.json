@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.657c1d60.css",
-    "main.js": "/portfolio/static/js/main.fb4b269b.js",
-    "static/media/Fondo-primeraVista.jpg": "/portfolio/static/media/Fondo-primeraVista.e91d2942557ed5e8e5cc.jpg",
+    "main.css": "/portfolio/static/css/main.0d5ff035.css",
+    "main.js": "/portfolio/static/js/main.dfabc4f6.js",
+    "static/media/Fondo-primeraVista.jpg": "/portfolio/static/media/Fondo-primeraVista.f3109bbfbf43943a5a2e.jpg",
     "static/media/myphoto.jpg": "/portfolio/static/media/myphoto.15ebabdff9c3b6b13477.jpg",
     "static/media/mensaje-kanji.png": "/portfolio/static/media/mensaje-kanji.d16cbd5b0fb6ee261796.png",
     "static/media/about-bullets.svg": "/portfolio/static/media/about-bullets.bd0c8ca701ae342a5637.svg",
@@ -20,11 +20,11 @@
     "static/media/about-lateral3.svg": "/portfolio/static/media/about-lateral3.0c9ef0e31aa3655a4a63.svg",
     "static/media/tears.svg": "/portfolio/static/media/tears.d5b2dab8d349da462222.svg",
     "static/media/half-heart.svg": "/portfolio/static/media/half-heart.841d14eea3273f01da47.svg",
-    "main.657c1d60.css.map": "/portfolio/static/css/main.657c1d60.css.map",
-    "main.fb4b269b.js.map": "/portfolio/static/js/main.fb4b269b.js.map"
+    "main.0d5ff035.css.map": "/portfolio/static/css/main.0d5ff035.css.map",
+    "main.dfabc4f6.js.map": "/portfolio/static/js/main.dfabc4f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.657c1d60.css",
-    "static/js/main.fb4b269b.js"
+    "static/css/main.0d5ff035.css",
+    "static/js/main.dfabc4f6.js"
   ]
 }
