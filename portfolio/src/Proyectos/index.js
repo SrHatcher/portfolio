@@ -4,8 +4,8 @@ import "./proyectos.css"
 function Proyectos(){
     return(
         <React.Fragment>
-            <section className="proyectos-container">
-                <div className="proyectos-content_cuadricula">
+            <section className="proyectos-container" id="proyectos">
+                <div className="proyectos-content_cuadricula" >
                     <h1 className="proyectos-content_title">PROYECTOS REALIZADOS</h1>
                     <div className="proyectos-title_underline"></div>
                     <div className="proyectos-hechos-container">

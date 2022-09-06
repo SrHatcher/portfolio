@@ -7,21 +7,13 @@ import './App.css';
 
 function App() {
   return (
-    <React.Fragment>
+      <div className='hola'>
         <MyHeader>
-          <nav className='nav-container'>
-            <ul>
-              <li className='nav-item--selected'>INICIO</li>
-              <li>PROYECTOS</li>
-              <li>ABOUT</li>
-              <li>CONTACTO</li>
-            </ul>
-          </nav>
         </MyHeader>
         <Presentacion />
         <Proyectos />
         <About />
-    </React.Fragment>
+      </div>
   );
 }
 

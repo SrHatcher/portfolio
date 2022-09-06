@@ -99,6 +99,7 @@
     font-size: 5rem;
     font-weight: 400;
     
+    box-sizing: border-box;
     background-color: #39005B;
     border: solid 15px #9400DA;
     color: white;
