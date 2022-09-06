@@ -54,7 +54,7 @@
     clip-path: circle(50% at 50% 50%);
 
     background-image: url("../../public/img/myphoto.jpg");
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: 100%;
 }
