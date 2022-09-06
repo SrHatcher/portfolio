@@ -101,6 +101,7 @@
     height: 70px;
 
     background-image: url("../../public/img/about-bullets.svg");
-    background-size: auto 70px;
+    background-size: 680px 70px;
     background-position: left;
+    background-repeat: no-repeat;
 }

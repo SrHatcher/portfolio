@@ -75,8 +75,10 @@ function Proyectos(){
                     <div className="proyectos-content_half-skull"></div>
                     <div className="proyectos-content_tears"></div>
                 </div>
+                {/*
                 <div className="proyectos_left-simbols"></div>
                 <div className="proyectos_right-simbols"></div>
+                */}
             </section>
             <div className="proyectos-footer">
                 <div className="proyectos-footer_background2"></div>

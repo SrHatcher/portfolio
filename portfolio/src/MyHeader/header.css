@@ -32,8 +32,6 @@ header{
     align-items: center;
     justify-content: center;
 
-    padding: 10px;
-
     list-style: none;
     font-size: 2rem;
     font-family: 'inter', sans-serif;
@@ -44,16 +42,25 @@ header{
 }
 
 .nav-container ul li a{
+    padding: 10px;
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    height: 100%;
-    width: 100%;
+
+    border-radius: 8px;
     color: white;
+    transition: 0.3s;
 }
 
+.nav-container ul li a:hover{
+    background-color: #FF00B8;
+}
+
+/*
 .nav-item--selected{
     background-color: #FF00B8;
     border-radius: 7px;
 }
+*/
