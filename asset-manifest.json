@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.af476dcf.css",
-    "main.js": "/portfolio/static/js/main.2ddb5851.js",
+    "main.css": "/portfolio/static/css/main.de9bdbc7.css",
+    "main.js": "/portfolio/static/js/main.e6f309a3.js",
     "static/media/Fondo-primeraVista.jpg": "/portfolio/static/media/Fondo-primeraVista.106187bb595e23be315d.jpg",
     "static/media/myphoto.jpg": "/portfolio/static/media/myphoto.8c81d757bc9bcc888a94.jpg",
     "static/media/mensaje-kanji.png": "/portfolio/static/media/mensaje-kanji.d16cbd5b0fb6ee261796.png",
@@ -9,13 +9,14 @@
     "static/media/js.png": "/portfolio/static/media/js.8b01095f5a0c9f8e207c.png",
     "static/media/html.png": "/portfolio/static/media/html.a9b47c3f302c2aa32013.png",
     "static/media/react.png": "/portfolio/static/media/react.68f1940c35d9f4e4f316.png",
+    "static/media/linkedin-icon.png": "/portfolio/static/media/linkedin-icon.10022196ac9d6a4f14e1.png",
     "static/media/contacto-title.svg": "/portfolio/static/media/contacto-title.4c9f769e33c1d44fed72.svg",
     "index.html": "/portfolio/index.html",
-    "main.af476dcf.css.map": "/portfolio/static/css/main.af476dcf.css.map",
-    "main.2ddb5851.js.map": "/portfolio/static/js/main.2ddb5851.js.map"
+    "main.de9bdbc7.css.map": "/portfolio/static/css/main.de9bdbc7.css.map",
+    "main.e6f309a3.js.map": "/portfolio/static/js/main.e6f309a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.af476dcf.css",
-    "static/js/main.2ddb5851.js"
+    "static/css/main.de9bdbc7.css",
+    "static/js/main.e6f309a3.js"
   ]
 }
