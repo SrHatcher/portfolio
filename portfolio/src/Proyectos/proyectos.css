@@ -6,274 +6,76 @@
     width: 100%;
     height: 100vh;
 
-    background-color: #0C0025;
+    background-color: #1C0032;
 }
 
-.proyectos-content_cuadricula{
-    position: relative;
-    max-width: 870px;
-    width: 80%;
-    height: 630px;
+.proyectos-content{
     display: flex;
-    gap: 80px;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 
-    margin-top: 50px;
-
-    background-image: url("../../public/img/cuadricula.svg");
-    background-position: center;
-    background-size: 870px 630px ;
-    background-repeat: no-repeat;
+    max-width: 1200px;
+    width: 80%;
+    height: 650px;
 }
 
 .proyectos-content_title{
-    flex-grow: 0.6;
+    flex-grow: 1;
     flex-basis: 0;
-    display: flex;
-    align-items: center;
 
-    font-size: 5.5rem;
+    margin-left: 30px;
+
     font-family: 'Bakbak One', cursive;
-    letter-spacing: 5px;
-    line-height: 60px;
-    text-align: center;
+    font-size: 10rem;
 
     color: white;
 }
 
-.proyectos-title_underline{
+.proyectos-content_title span{
+    color: #FF1DE8;
+}
+
+.proyectos-content_proyectos{
+    flex-grow: 4;
+    flex-basis: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.proyecto_view{
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 20px;
+    width: 270px;
+    height: 400px;
+
+    border: solid 5px white;
+    border-radius: 20px;
+    background-color: rgb(199, 198, 198);
+}
+
+.proyecto-view_name{
     position: absolute;
-    top: 70px;
-    width: 900px;
+    bottom: 20px;
+
+    width: calc(100% + 50px);
     height: 50px;
 
-    background-image: url("../../public/img/proyectos-title.svg");
-    background-size: 900px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-}
-
-.proyectos-hechos-container{
-    position: relative;
-    flex-grow: 4;
-    flex-basis: 0;
-    display: flex;
-    flex-direction: column;
-
-    max-width: 760px;
-    width: 100%;
-    min-width: 500px;
-    height: 500px;
-    
-
-}
-
-.proyectos-hechos-division1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-grow: 1;
-}
-
-.proyectos-hechos-division2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    flex-grow: 1;
-}
-
-.proyecto-view{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    height: 90%;
-    border-radius: 10px;
-
-    border: solid 3px black;
-    background-color: rgba(255, 255, 255, 0.507);
-}
-
-.proyecto-view_division1{
-    flex-grow: 1;
-    flex-basis: 0;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    gap: 5px;
-
-    padding: 0 5px;
-}
-
-.proyecto-view_division2{
-    flex-grow: 4;
-    flex-basis: 0;
-
-    margin: 0px 30px;
-
     border-radius: 8px;
-    background-color: white;
+    background-color: #FF1DE8;
+    
+    box-shadow: 0px 0px 10px 2px rgba(255,255,255,0.75);
 }
 
-.proyecto-view_division3{
-    flex-grow: 1;
-    flex-basis: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    margin: 8px 10px;
-
-    font-size: 1.3rem;
-    font-family: 'inter', sans-serif;
-    font-weight: 300;
-
-    border-radius: 10px;
-    background-color: #0C0025;
-    color: white;
-}
-
-.proyecto-view_buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 18px;
-    height: 20px;
-    border-radius: 2px;
-
-    font-size: 1.3rem;
-
-    color: white;
-    background-color: #0C0025;
-}
-
-.proyectos-content_letras-jp{
+.proyecto-view_shadow{
     position: absolute;
-    right: -30px;
-    bottom: 30px;
+    bottom: -100px;
 
-    width: 50px;
-    height: 190px;
-
-    background-image: url("../../public/img/letras-jp-proyectos.svg");
-    background-size: auto 190px;
-    background-repeat: no-repeat;
-}
-
-.proyectos-content_letras-jp2{
-    position: absolute;
-    left: 0px;
-    bottom: 40px;
-
-    width: 70px;
-    height: 30px;
-
-    background-image: url("../../public/img/letras-jp-proyectos2.svg");
-    background-size: auto 30px;
-    background-repeat: no-repeat;
-}
-
-.proyectos-content_half-heart{
-    position: absolute;
-    left: -50px;
-    top: 100px;
-
-    width: 158px;
-    height: 297px;
-
-    background-image: url("../../public/img/half-heart.svg");
-    background-size: 158px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.proyectos-content_half-skull{
-    position: absolute;
-    right: -10px;
-    top: 130px;
-
-    width: 201px;
-    height: 320px;
-
-    background-image: url("../../public/img/creaneo.svg");
-    background-size: 201px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.proyectos-content_tears{
-    position: absolute;
-    bottom: 100px;
-    left: 50px;
-
-    width: 86px;
-    height: 114px;
-
-    background-image: url("../../public/img/tears.svg");
-    background-size: 86px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.proyectos_left-simbols{
-    position: absolute;
-    left: -50px;
-
-    width: 200px;
-    height: 700px;
-
-    background-image: url("../../public/img/proyectos-izquierda.svg");
-    background-size: 200px;
-    background-repeat: no-repeat;
-    background-position: left;
-}
-
-.proyectos_right-simbols{
-    position: absolute;
-    right: 0;
-
-    width: 279px;
-    height: 730px;
-
-    background-image: url("../../public/img/proyectos-derecha.svg");
-    background-size: 140px;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.proyectos-footer{
-    position: relative;
     width: 100%;
-    height: 10vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+    height: 80px;
 
-    background-color: #FEC9FF;
-}
+    clip-path: ellipse(50% 6% at 50% 50%);
 
-.proyectos-footer_background{
-    position: absolute;
-    bottom: 15px;
-
-    width: 105%;
-    height: 200%;
-    clip-path: ellipse(50% 31% at 50% 50%);
-
-    background-color: #1A0C23;
-}
-
-.proyectos-footer_background2{
-    position: absolute;
-    bottom: -20px;
-
-    width: 120%;
-    height: 200%;
-    clip-path: ellipse(50% 31% at 50% 50%);
-
-    background-color: #180729;
+    background-color: #562D76;
 }

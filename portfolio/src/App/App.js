@@ -3,6 +3,7 @@ import { MyHeader } from '../MyHeader';
 import { Presentacion } from '../Presentacion';
 import { Proyectos } from '../Proyectos';
 import { About } from '../About';
+import { Contacto } from '../Contacto';
 import './App.css';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Presentacion />
         <Proyectos />
         <About />
+        <Contacto />
       </div>
   );
 }

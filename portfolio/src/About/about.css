@@ -8,76 +8,15 @@
     height: 100vh;
     margin-top: -1px;
 
-    background-color: #FEC9FF;
-}
-
-.about-lateral1{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 843px;
-    height: 500px;
-
-    background-image: url("../../public/img/about-lateral1.svg");
-    background-size: auto 500px;
-    background-position: left top;
-    background-repeat: no-repeat;
-}
-
-.about-lateral2{
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    width: 482px;
-    height: 453px;
-
-    background-image: url("../../public/img/about-lateral2.svg");
-    background-size: auto 350px;
-    background-position: left;
-    background-repeat: no-repeat;
-}
-
-.about-lateral3{
-    position: absolute;
-    top: 20px;
-    right: 0;
-    width: 383px;
-    height: 322px;
-
-    background-image: url("../../public/img/about-lateral3.svg");
-    background-size: auto 322px;
-    background-position: right;
-    background-repeat: no-repeat;
-}
-
-.about-lateral4{
-    position: absolute;
-    bottom: 10px;
-    right: 0;
-    width: 863px;
-    height: 428px;
-
-    background-image: url("../../public/img/about-lateral4.svg");
-    background-size: auto 428px;
-    background-position: right;
-    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #1C0032 0%, #000000 100%);
 }
 
 .about-content{
-    z-index: 1;
-
     max-width: 1200px;
-    width: 70%;
-    height: 600px;
+    width: 80%;
+    height: 650px;
 }
 
-.about-line{
-    width: 100%;
-    height: 15px;
-
-    border-radius: 5px;
-    background-color: #24091C;
-}
 
 .about-content h1{
     display: inline;
@@ -86,22 +25,77 @@
     font-size: 10rem;
     font-family: 'Bakbak One', cursive;
 
-    color: #24091C;
+    color: white;
 }
 
 .about-content h1 span{
     color: #FF00B3;
 }
 
-.about-bullets{
-    display: inline-block;
+.about-content p{
+    padding: 10px;
 
-    margin-left: 30px;
-    width: 680px;
-    height: 70px;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
 
-    background-image: url("../../public/img/about-bullets.svg");
-    background-size: 680px 70px;
-    background-position: left;
+    color: white;
+}
+
+.about-content h3{
+    padding-top: 20px;
+    padding-left: 10px;
+
+    font-size: 3.2rem;
+
+    color: white;
+}
+
+.about-content_skills{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    height: 230px;
+}
+
+.about-skills_html{
+    width: 185px;
+    height: 185px;
+
+    background-image: url("../../public/img/html.png");
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-skills_css{
+    width: 185px;
+    height: 185px;
+
+    background-image: url("../../public/img/css.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-skills_js{
+    width: 185px;
+    height: 185px;
+
+    background-image: url("../../public/img/js.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.about-skills_react{
+    width: 185px;
+    height: 185px;
+
+    background-image: url("../../public/img/react.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
