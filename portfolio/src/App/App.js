@@ -4,6 +4,7 @@ import { Presentacion } from '../Presentacion';
 import { Proyectos } from '../Proyectos';
 import { About } from '../About';
 import { Contacto } from '../Contacto';
+import { Footer } from '../Footer';
 import './App.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Proyectos />
         <About />
         <Contacto />
+        <Footer />
       </div>
   );
 }

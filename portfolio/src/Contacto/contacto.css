@@ -69,7 +69,58 @@
     padding: 30px 60px;
     box-sizing: border-box;
 
+    font-size: 2rem;
+
     border-radius: 15px;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.25);
     background-color: #FF007A;
+    color: white;
+}
+
+.form-container label{
+    padding: 10px 0px 0px 0px;
+
+    font-family: 'Roboto Slab', serif;
+}
+
+.form-container input{
+    height: 28px;
+    padding: 0px 5px;
+
+    font-size: 1.6rem;
+    
+    border-radius: 4px;
+    border: none;
+}
+
+.form-container input:focus{
+    outline: solid 2px #960070;
+}
+
+.form-container #form-message{
+    height: 130px;
+    margin-top: 2px;
+}
+
+.form-container button{
+    align-self: center;
+
+    margin-top: 20px;
+    height: 40px;
+    width: 120px;
+
+    font-size: 1.6rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+.form-container button:active{
+    transform: scale(0.98);
+    box-shadow: 0px 0px 0px transparent;
 }
