@@ -6,6 +6,9 @@ function Presentacion(){
     return(
         <section className="presentacion-container" id="presentacion">
             <div className="presentacion-view-container">
+                <div className="presentacion-view1000">
+                    <div className="presentacion-view1000_img"></div>
+                </div>
                 <div className="presentacion_content">
                     <React.Fragment>
                         <div className="presentacion-foto_polygon-background"></div>

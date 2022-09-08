@@ -17,6 +17,11 @@ function About(){
                     <div className="about-skills_react"></div>
                 </div>
             </div>
+
+            <div className="about-footer">
+                <div className="about-footer-div1"></div>
+                <div className="about-footer-div2"></div>
+            </div>
         </section>
     )
 }

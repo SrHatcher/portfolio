@@ -9,7 +9,7 @@ import './App.css';
 
 function App() {
   return (
-      <div className='hola'>
+      <React.Fragment>
         <MyHeader>
         </MyHeader>
         <Presentacion />
@@ -17,7 +17,7 @@ function App() {
         <About />
         <Contacto />
         <Footer />
-      </div>
+      </React.Fragment>
   );
 }
 
