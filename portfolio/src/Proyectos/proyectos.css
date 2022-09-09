@@ -86,7 +86,17 @@
         height: 60px;
 
         border-radius: 50%;
-        background-color: white;
+        background-image: url("../../public/img/media1000/flecha_izquierda.svg");
+        background-size: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 7px 1px rgb(173, 173, 173);
+        transition: .5s all;
+    }
+
+    .carrousel_flecha-izquierda:active{
+        transform: scale(0.8);
+        box-shadow: 0px 0px 0px 0px white;
     }
 
     .carrousel_flecha-derecha{
@@ -98,7 +108,17 @@
         height: 60px;
 
         border-radius: 50%;
-        background-color: white;
+        background-image: url("../../public/img/media1000/flecha_derecha.svg");
+        background-size: 60px;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 7px 1px rgb(173, 173, 173);
+        transition: .5s all;
+    }
+
+    .carrousel_flecha-derecha:active{
+        transform: scale(0.8);
+        box-shadow: 0px 0px 0px 0px white;
     }
 
     .proyecto_view{
