@@ -20,48 +20,57 @@ header{
     color: white;
 }
 
-.nav-container ul{
-    display: flex;
+@media (min-width: 650px){
+    .nav-container ul{
+        display: flex;
+    
+        width: 100%;
+        justify-content: space-around;
 
-    width: 40%;
-    margin-right: 50px;
-    justify-content: space-around;
+        transition: 0.5s;
+    }
+
+    .nav-container ul li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        list-style: none;
+        font-size: 1.4rem;
+        font-family: 'inter', sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.5rem;
+    
+        cursor: pointer;
+    }
+    
+    .nav-container ul li a{
+        padding: 10px;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    
+        border-radius: 8px;
+        color: white;
+        transition: 0.3s;
+    }
+    
+    .nav-container ul li a:hover{
+        background-color: #FF00B8;
+    }
 }
 
-.nav-container ul li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 
-    list-style: none;
-    font-size: 1.4rem;
-    font-family: 'inter', sans-serif;
-    font-weight: 600;
-    letter-spacing: 0.5rem;
 
-    cursor: pointer;
+@media (min-width: 1000px){
+    .nav-container ul{
+        display: flex;
+    
+        width: 50%;
+        margin-right: 50px;
+        justify-content: space-around;
+    }
 }
 
-.nav-container ul li a{
-    padding: 10px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-
-    border-radius: 8px;
-    color: white;
-    transition: 0.3s;
-}
-
-.nav-container ul li a:hover{
-    background-color: #FF00B8;
-}
-
-/*
-.nav-item--selected{
-    background-color: #FF00B8;
-    border-radius: 7px;
-}
-*/

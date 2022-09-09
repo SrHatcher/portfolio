@@ -11,11 +11,11 @@ function Contacto(){
                 </div>
                 <div className='contacto-form'>
                     <form className='form-container'>
-                        <label for="form-nombre">Nombre:</label>
+                        <label htmlFor="form-nombre">Nombre:</label>
                         <input type="text" id="form-nombre"/>
-                        <label for="form-email">Correo Electronico:</label>
+                        <label htmlFor="form-email">Correo Electronico:</label>
                         <input type="text" id="form-email"/>
-                        <label for="form-message">Mensaje:</label>
+                        <label htmlFor="form-message">Mensaje:</label>
                         <input type="text" id="form-message"></input>
 
                         <button className='form-button'>Enviar</button>

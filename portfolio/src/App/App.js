@@ -6,10 +6,9 @@ import { About } from '../About';
 import { Contacto } from '../Contacto';
 import { Footer } from '../Footer';
 import './App.css';
-
 function App() {
   return (
-      <React.Fragment>
+      <>
         <MyHeader>
         </MyHeader>
         <Presentacion />
@@ -17,7 +16,7 @@ function App() {
         <About />
         <Contacto />
         <Footer />
-      </React.Fragment>
+      </>
   );
 }
 

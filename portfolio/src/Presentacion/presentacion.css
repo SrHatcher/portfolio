@@ -22,7 +22,7 @@
     height: 100vh;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 650px){
     .presentacion-view1000{
         display: flex;
         align-items: center;
@@ -43,6 +43,7 @@
 
     }
 
+    
     .presentacion-foto_polygon-background{
         display: none;
     }
@@ -327,23 +328,27 @@
         background-color: #ff00b7bb;
     }
     
-    .presentacion-nombre_cargo p{
-        display: flex;
-    
+    .presentacion-nombre_cargo p{    
         margin-top: 20px;
-        margin-right: 15px;
     
         font-family: 'Montserrat', sans-serif;
         font-size: 3rem;
-        line-height: 45px;
         text-align: right;
     
         color: white;
     }
     
-    .presentacion-nombre_cargo p h2{
+    .presentacion-nombre_cargo h2{
+        margin-top: 20px;
+        margin-right: 15px;
+
         font-family: 'Bakbak One', cursive;
+        font-size: 5.2rem;
+        text-align: right;
+        line-height: 45px;
         letter-spacing: 3px;
+
+        color: white;
     }
 
 }

@@ -3,6 +3,7 @@ import "./presentacion.css"
 
 
 function Presentacion(){
+    console.log("presentacion")
     return(
         <section className="presentacion-container" id="presentacion">
             <div className="presentacion-view-container">
@@ -32,7 +33,8 @@ function Presentacion(){
                         <h1 className="presentacion-nombre_apellido">MALDONADO</h1>
                         <div className="presentacion-nombre_cargo-shadow"></div>
                         <div className="presentacion-nombre_cargo">
-                            <p>Y soy <h2>FRONTEND<br/>DEVELOPER</h2></p>
+                            <p>Y soy</p>
+                            <h2>FRONTEND<br/>DEVELOPER</h2>
                         </div>
                     </React.Fragment>
                 </div>
